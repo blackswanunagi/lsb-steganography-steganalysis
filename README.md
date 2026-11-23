@@ -51,7 +51,9 @@ python audio_psnr.py audio_original.wav stego.wav
 
 ## Web app — [`web-app/`](web-app/)
 
-React 19 + Vite + Tailwind: encode and decode a message in an image, then analyse the LSB distribution per RGB channel with charts. No server, no upload: everything is processed locally with the Canvas API.
+🌐 **Live demo: https://blackswanunagi.github.io/lsb-steganography-steganalysis/**
+
+React 19 + Vite + Tailwind: hide and extract a message in a **PNG image or WAV audio file**, and run an independent steganalysis of any file with LSB distribution charts. No server, no upload: everything is processed locally in the browser. Deployed automatically to GitHub Pages by [a GitHub Actions workflow](.github/workflows/pages.yml).
 
 ```bash
 cd web-app && npm install && npm run dev
