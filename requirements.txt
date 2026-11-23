@@ -1,4 +1,4 @@
 numpy
 pillow
 matplotlib
-librosa
+librosa   # only for audio/lsb_audio_analysis.py (MP3 support)
